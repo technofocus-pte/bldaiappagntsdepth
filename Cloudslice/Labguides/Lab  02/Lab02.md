@@ -71,6 +71,8 @@ Before deploying the container app, you need to prepare the Azure environment an
 
 ### Task 1: Configure a resource group for your Azure resources
 
+[!IMPORTANT] The resource group is already provided for this lab. You can skip this task and proceed to the next task.
+
 1. Open your browser, navigate to the address bar, and type or paste the following URL: +++https://portal.azure.com/+++ then press the **Enter** button. Sign in with the following credentials.
 
     | **Username** | +++@lab.CloudPortalCredential(User1).Username+++ |
