@@ -317,9 +317,10 @@ In this exercise, you use the first cookbook to create a search index, knowledge
 The notebooks authenticate with **DefaultAzureCredential**, which uses your Azure CLI sign-in. No API keys are stored in code.
 
 1. In the same terminal, run the following command.
-
-    `az login`
-
+    ```
+    $env:AZURE_EXTENSION_DIR = "$env:TEMP\azext"
+    az login
+    ```
 1. In the **Sign in** dialog, select **Work or school account**, and then click on **Continue**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/bldaiappagntsdepth/refs/heads/main/Cloudslice/Labguides/Lab%2004/media/image37.png)
