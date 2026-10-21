@@ -440,6 +440,10 @@ Before deploying the container app, you need to prepare the Azure environment an
 
     ![](https://raw.githubusercontent.com/technofocus-pte/bldaiappagntsdepth/refs/heads/main/Cloudslice/Labguides/Lab%20%2002/media/image75.png)
 
+[!IMPORTANT] Before proceeding, configure your Git identity by running the following commands:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+Replace "you@example.com" and "Your Name" with your GitHub account email address and name.
 
 ### Task 7: Configure Azure DevOps and a starter pipeline
 
